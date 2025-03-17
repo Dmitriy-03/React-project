@@ -533,35 +533,33 @@ function Main() {
               Все работы
             </p>
             <p
-              className={`tag ${
-                selectedCategory === "Banners" ? "selected" : ""
-              } 
+              className={`tag ${selectedCategory === "Sites" ? "selected" : ""} 
                 ${isPortrait ? "" : "mobile"}`}
-              onClick={() => setSelectedCategory("Banners")}
+              onClick={() => setSelectedCategory("Sites")}
             >
               Сайты
             </p>
             <p
               className={`tag ${
-                selectedCategory === "YouTubeThumbnails" ? "selected" : ""
+                selectedCategory === "LandingPages" ? "selected" : ""
               } ${isPortrait ? "" : "mobile"}`}
-              onClick={() => setSelectedCategory("YouTubeThumbnails")}
+              onClick={() => setSelectedCategory("LandingPages")}
             >
               Лендинги
             </p>
             <p
               className={`tag ${
-                selectedCategory === "YouTubeDesign" ? "selected" : ""
+                selectedCategory === "Layouts" ? "selected" : ""
               } ${isPortrait ? "" : "mobile"}`}
-              onClick={() => setSelectedCategory("YouTubeDesign")}
+              onClick={() => setSelectedCategory("Layouts")}
             >
               Макеты
             </p>
             <p
               className={`tag ${
-                selectedCategory === "InstagramStories" ? "selected" : ""
+                selectedCategory === "WebApplications" ? "selected" : ""
               } ${isPortrait ? "" : "mobile"}`}
-              onClick={() => setSelectedCategory("InstagramStories")}
+              onClick={() => setSelectedCategory("WebApplications")}
             >
               Веб-приложения
             </p>
